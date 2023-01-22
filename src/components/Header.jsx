@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import * as styles from './styles/header.module.css'
+import {navigate} from "gatsby"
 
 
 function Header() {
     const scrollDirection = useScrollDirection();
+
     
 
     return (
         <div className={scrollDirection === "down" ? styles.containerUp : styles.container}>
-            <div className={styles.title} >Tyler Kotaka</div>
-            <button className={styles.btn} >Projects</button>
-            <button className={styles.btn}>About Me</button>
+            <div className={styles.title}>Tyler Kotaka</div>
+            <button className={styles.btn} onClick={()=> navigate("/")} role="link" >About Me</button>
+            <button className={styles.btn} onClick={()=> navigate("/projects")}>Projects</button>
             <button className={styles.btn}>Resume</button>
             <button className={styles.btn}>Contact Me</button>
         </div>

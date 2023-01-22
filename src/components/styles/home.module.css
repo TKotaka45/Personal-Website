@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #8c8c8c;
+    background-color: #404040;
+}
+
+.information {
+    margin: 2rem 2rem;
+    display:flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#introduction {
+
+    width: 45vw;
+}
+
+#work {
+    margin-left:auto;
+
+    width: 45vw;
+}
+
+#personal {
+
+    width: 50vw;
+}
+
+.aboutMe {
+    
+
+    padding: .75rem 1.5rem;
+
+    color: #cccccc;
+
+    background-color: rgba(140, 140, 140, .3);
+    backdrop-filter: blur(2px);
+
+    
+    border-radius: 1rem;;
+}
