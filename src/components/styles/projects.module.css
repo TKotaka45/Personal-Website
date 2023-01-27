@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -6,16 +6,77 @@ body{
     background-color: #404040;
 }
 
-.project {
-    position: relative;
-    width: 45vw;
-    padding: 1rem;
+p {
+    margin-top:.25rem;
+}
 
-    color: #d9d9d9;
+.project {
+    padding: 1rem 1.75rem;
+
+    color: #cccccc;
 
     background-color: rgba(140, 140, 140, .3);
     backdrop-filter: blur(2px);
 
-    border: 1px #d9d9d9;
-    border-radius: 1rem;;
+
+    border-radius: 1rem;
+
+    display: grid;
+    height: 6%;
+
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: repeat(10, 10%);
 }
+
+#title {
+    display:block;
+    grid-area: 1/1/3/3;
+    width:fit-content;
+
+    font-size: 2rem;
+    font-weight: 200;
+    
+    text-decoration: inherit;
+    color:inherit;
+    overflow:hidden;
+
+    background: linear-gradient(#cccccc, #cccccc) bottom left/0 1px no-repeat;
+    background-size: 0 1px, 100% 1px;
+    transition: background-size .5s linear;
+}
+
+#title:hover {
+    background-size: 100% 1px, 0 1px;
+}
+
+#info {
+    grid-area: 3/1/8/6;
+    padding-top: 0;
+    padding-right:.4rem;
+}
+
+#projectImg{
+    grid-area:3/6/9/9;
+
+}
+
+#stack {
+    grid-area:9/1/11/6;
+    display:flex;
+    flex-direction:row;
+    gap:2rem;
+    height: 3rem;
+}
+
+.information {
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    z-index: 1;
+
+}
+
+a:visited {
+    color: inherit;
+  }

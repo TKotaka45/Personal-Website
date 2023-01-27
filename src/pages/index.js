@@ -1,18 +1,21 @@
 import * as React from 'react'
 import Header from '../components/Header'
+import Background from '../components/Backgrounds/IndexBackground'
 import * as home from '../components/styles/home.module.css'
 
 
 const Home = () => {
     return (
         <div>
-            <Header/>
+            <Header />
+            <Background />
             <div className={home.information}>
+
                 <div id={home.introduction} className={home.aboutMe}>
                     <p>
-                         My name is Tyler Kotaka, I am a recent gratuate from Ohio State University. I graduated December 2022 with a Bachelor of Science in Mathematics with a theoretical specialization. I am currently seeking a junior position in web development. I am currently working on multiple independent web development projects using different tech stacks to expand my experience and understanding of full stack development.
-                         <br></br> <br></br>
-                        The current technologies I am developing with are: 
+                        My name is Tyler Kotaka, I am a recent gratuate from Ohio State University. I graduated December 2022 with a Bachelor of Science in Mathematics with a theoretical specialization. I am currently seeking a junior position in web development. I am currently working on multiple independent web development projects using different tech stacks to expand my experience and understanding of full stack development.
+                        <br></br> <br></br>
+                        The current technologies I am developing with are:
                         <br></br>
                         Gatsby, Node.JS, Express.JS, MongoDB
                     </p>

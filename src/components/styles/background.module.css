@@ -1,0 +1,26 @@
+.img1 {
+    position:fixed;
+    width:50px;
+    top: 12rem;
+    left: 17rem;
+
+    animation: rotation1 8s infinite linear;
+}
+
+@keyframes rotation1 {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.img2 {
+    position:fixed;
+    width:50px;
+    top:32rem;
+    left:50rem;
+
+    animation: rotation1 10s infinite linear;
+}
