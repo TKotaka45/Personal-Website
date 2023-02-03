@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/Header'
-import Resume from '/static/resume.pdf'
+import resumeFile from '/static/resume.pdf'
 
 
 
