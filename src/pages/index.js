@@ -1,12 +1,13 @@
 import * as React from 'react'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import Background from '../components/Backgrounds/IndexBackground'
 import * as home from '../components/styles/home.module.css'
 
 
 const Home = () => {
     return (
-        <div>
+        <body>
             <Header />
             <Background />
             <div className={home.information}>
@@ -33,7 +34,8 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-        </div>
+            <Footer />
+        </body>
     )
 }
 

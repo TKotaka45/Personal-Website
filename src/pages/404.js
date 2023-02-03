@@ -1,6 +1,5 @@
 import * as React from "react"
 import Header from '../components/Header'
-import { Link } from "gatsby"
 
 
 
@@ -15,9 +14,9 @@ const NotFoundPage = () => {
         <p>
           Looks like the page you were looking for could not be found.
         </p>
-        <button>
+        <a href='/' >
           Return to homepage
-        </button>
+        </a>
       </div>
     </React.Fragment>
 

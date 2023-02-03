@@ -1,21 +1,22 @@
 import * as React from 'react'
 import Header from '../components/Header'
-import Background from '../components/Backgrounds/ProjectBackground.jsx'
+import Footer from '../components/Footer'
+// import Background from '../components/Backgrounds/ProjectBackground.jsx'
 import * as projects from '../components/styles/projects.module.css'
-import jsIcon from '../images/jsIcon.png'
-import nodeIcon from '../images/nodeIcon.png'
-import mongoIcon from '../images/mongoIcon.png'
-import gatsbyIcon from '../images/gatsbyIcon.png'
+import jsIcon from '../../static/jsIcon.png'
+import nodeIcon from '../../static/nodeIcon.png'
+import mongoIcon from '../../static/mongoIcon.png'
+import gatsbyIcon from '../../static/gatsbyIcon.png'
 
 const projectsPage = () => {
     return (
-        <div>
+        <body>
             <Header />
             <div className={projects.information}>
 
                 {/* Contact Project */}
                 <div className={projects.project}>
-                    <a id={projects.title} href = 'https://github.com/TKotaka45/Contact_website' target ="_blank">
+                    <a id={projects.title} href = 'https://github.com/TKotaka45/Contact_website' target ="_blank" rel="noreferrer">
                         Contact Website
                     </a>
                     <div id={projects.info}>
@@ -23,9 +24,9 @@ const projectsPage = () => {
                             The Contact storage website is my first full stack project built on the Node.JS JavaScript runtime. The project utilizes Express.JS for routing, a Mongo Database for storage of user information. The website prompts users to log in using credentials and then are met with a page displaying all of their contacts. 
                         </p>
                         <p>
-                            The project has not been deployed yet. 
+                            This project has not been deployed yet. 
                             <br></br>
-                            The source code can be found on my GitHub <a href='https://github.com/TKotaka45/Contact_website' target ="_blank" color ="#cccccc">here</a>
+                            The source code can be found on my GitHub <a href='https://github.com/TKotaka45/Contact_website' target ="_blank" color ="#cccccc" rel="noreferrer">here</a>
                         </p>
                     </div>
                     <div id={projects.projectImg}>
@@ -40,7 +41,7 @@ const projectsPage = () => {
 
                 {/*Personal Website */}
                 <div className={projects.project}>
-                <a id={projects.title} href = 'https://github.com/TKotaka45/Personal-Website' target ="_blank">
+                <a id={projects.title} href = 'https://github.com/TKotaka45/Personal-Website' target ="_blank" rel="noreferrer">
                         Personal Website
                     </a>
                     <div id={projects.info}>
@@ -48,7 +49,7 @@ const projectsPage = () => {
                             This website is in ongoing development to more further explore the possibilities of Gatsby. The site will reflect current interests and what I am currently exploring in the space of web development.
                         </p>
                         <p>
-                            The source code can be found on my GitHub <a href='https://github.com/TKotaka45/Personal-Website' target ="_blank" color ="inherit">here</a>
+                            The source code can be found on my GitHub <a href='https://github.com/TKotaka45/Personal-Website' target ="_blank" color ="inherit" rel="noreferrer">here</a>
                         </p>
                     </div>
                     <div id={projects.projectImg}>
@@ -62,7 +63,8 @@ const projectsPage = () => {
                 </div>
 
             </div>
-        </div>
+            <Footer />
+        </body>
     )
 }
 
