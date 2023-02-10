@@ -1,0 +1,9 @@
+#image {
+    display:block;
+    margin: 5rem auto;
+    width:60rem;
+}
+
+#image:hover {
+    cursor:pointer;
+}
