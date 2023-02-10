@@ -1,22 +1,46 @@
 .container {
-    position:relative;
+    position: relative;
     height: 12rem;
-    width:100%;
-    bottom:0;
-
-    display:grid;
-    grid-template-columns: repeat(5, 20%);
-    grid-template-rows:repeat(10, 10%);
-
+    width: 100%;
+    bottom: 0;
+    margin-top: 10rem;
+    padding:5px;
+    box-sizing:border-box;
     background-color: rgba(140, 140, 140, .3);
-    backdrop-filter:blur(2px);
-
+    backdrop-filter: blur(2px);
     z-index: 100;
-
     border-top: 1px #cccccc solid;
-    color:#cccccc;
+    color: #cccccc;
+}
+
+
+.content {
+    position:relative;
+    height:100%;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(10, 10%);
+    vertical-align: top;
+}
+
+.icons {
+    height: 90%;
 }
 
 #contact {
-    grid-area: 3/2/4/3 ;
+    grid-area: 3/2/4/3;
+}
+
+#nameSake {
+    grid-row: 10;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#deploy {
+    grid-row: 10;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    justify-self: end;
 }
