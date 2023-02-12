@@ -75,9 +75,4 @@ p {
     flex-direction: column;
     gap: 3rem;
     z-index: 1;
-
 }
-
-a:visited {
-    color: inherit;
-  }

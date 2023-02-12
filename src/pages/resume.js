@@ -16,8 +16,6 @@ function Resume() {
                 <img id={resume.image} src={resumeImg} alt="An Image of my resume, click to open PDF in new window"></img>
                 <a href={TylerKotakaResume} download='TylerKotakaResume.pdf' style={{fontSize:'1.5rem', float:'right', color:'#cccccc', fontWeight:'200'}}>Download Resume PDF</a>
             </div>
-            
-
             <Footer />
 
         </>

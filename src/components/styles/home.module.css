@@ -8,15 +8,21 @@
 }
 
 #introduction {
-    width: 45vw;
+    width: 70vw;
 }
 
 #work {
     margin-left:auto;
-    width: 45vw;
+    width: 60vw;
 }
 
 #personal {
+    width: 65vw;
+
+}
+
+#sport {
+    margin-left:auto;
     width: 50vw;
 }
 
@@ -27,7 +33,6 @@
 
     background-color: rgba(140, 140, 140, .3);
     backdrop-filter: blur(2px);
-
     
     border-radius: 1rem;
 }
