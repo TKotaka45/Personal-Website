@@ -8,53 +8,52 @@ import * as styles from '../components/styles/contact.module.css'
 function Contact() {
     return (
         <>
-        <Header />
+            <Header />
+            <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
 
-        <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>    
+                <main id={styles.contactForm}>
+                    Contact Me:
+                    <div id={styles.uInput}>
+                        <div style={{ gridArea: 'n' }}>
+                            <div>
+                                <label for='name'>Name: </label>
+                                <input type='text' name='name' id='name' placeholder='Name' />
+                            </div>
 
-            <main id={styles.contactForm}>
-                Contact Me:
-                <div id={styles.uInput}>
-                    <div style={{ gridArea: 'n' }}>
-                        <div>
-                            <label for='name'>Name: </label>
-                            <input type='text' name='name' id='name' placeholder='Name' />
                         </div>
 
-                    </div>
+                        <div style={{ gridArea: 'e' }}>
+                            <div>
+                                <label for='email'>Email: </label>
+                                <input type='text' name='email' id='email' placeholder='Email Address'></input>
+                            </div>
 
-                    <div style={{ gridArea: 'e' }}>
-                        <div>
-                            <label for='email'>Email: </label>
-                            <input type='text' name='email' id='email' placeholder='Email Address'></input>
                         </div>
 
-                    </div>
+                        <div style={{ gridArea: 'm' }}>
+                            <div>
+                                <label for='message'>Message: </label>
+                                <textarea name='message' id='message' placeholder='Message'></textarea>
+                            </div>
 
-                    <div style={{ gridArea: 'm' }}>
-                        <div>
-                            <label for='message'>Message: </label>
-                            <textarea name='message' id='message' placeholder='Message'></textarea>
                         </div>
 
-                    </div>
+                        <div style={{ gridArea: 'l' }}>
+                            <div>
+                                <label for='location'> Where are you from? </label>
+                                <input type='text' id='location' placeholder='City, State'></input>
+                            </div>
 
-                    <div style={{ gridArea: 'l' }}>
-                        <div>
-                            <label for='location'> Where are you from? </label>
-                            <input type='text' id='location' placeholder='City, State'></input>
                         </div>
 
+                        <div style={{ gridArea: 's', postition: 'relative' }}>
+                            <input type='submit' value='Submit'></input>
+                        </div>
                     </div>
+                </main>
 
-                    <div style={{ gridArea: 's', postition: 'relative' }}>
-                        <input type='submit' value='Submit'></input>
-                    </div>
-                </div>
-            </main>
-
-            <Footer />
-        </div>
+                <Footer />
+            </div>
         </>
     )
 }

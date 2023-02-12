@@ -7,11 +7,10 @@ import * as home from '../components/styles/home.module.css'
 
 const Home = () => {
     return (
-        <body>
+        <>
             <Header />
             <Background />
             <div className={home.information}>
-
                 <div id={home.introduction} className={home.aboutMe}>
                     <p>
                         My name is Tyler Kotaka, I am a recent gratuate from Ohio State University. I graduated December 2022 with a Bachelor of Science in Mathematics with a theoretical specialization. I am currently seeking a junior position in web development. I am currently working on multiple independent web development projects using different tech stacks to expand my experience and understanding of full stack development.
@@ -35,7 +34,7 @@ const Home = () => {
                 </div>
             </div>
             <Footer />
-        </body>
+        </>
     )
 }
 

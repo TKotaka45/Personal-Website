@@ -11,7 +11,7 @@ import awsIcon from '../../static/awsIcon.png'
 
 const projectsPage = () => {
     return (
-        <div>
+        <>
             <div id={projects.holder}>
                 <Header />
                 <div className={projects.information}>
@@ -68,7 +68,8 @@ const projectsPage = () => {
                 </div>
                 <Footer />
             </div>
-        </div>
+            
+        </>
     )
 }
 

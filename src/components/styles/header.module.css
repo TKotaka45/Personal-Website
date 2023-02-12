@@ -1,5 +1,5 @@
 .container {
-    position: sticky;
+    position: fixed;
     top: 0px;
     height: 6.5rem;
     width: 100%;
@@ -24,7 +24,7 @@
 }
 
 .containerUp {
-    position: sticky;
+    position: fixed;
     top: -3.25rem;
     width: 100%;
  

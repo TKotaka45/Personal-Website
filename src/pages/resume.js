@@ -9,12 +9,12 @@ import * as resume from '../components/styles/resume.module.css'
 
 function Resume() {
     return (
-        <body>
+        <>
             <Header />
             <img id={resume.image} src={resumeImg} alt="An Image of my resume, click to open PDF in new window"></img>
-
             <Footer />
-        </body>
+
+        </>
     )
 
 }
