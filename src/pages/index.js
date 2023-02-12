@@ -36,7 +36,7 @@ const Home = () => {
                         <br /> <br />
                         Becoming a squad leader involved my row (section) voting on multiple people in my row to receive interviews with the directing staff for the positions. Following the interviews, the selections for the squad leaders are announced. We then had to attend leadership development sessions preceding the season to ensure success in the season in leading our rows. Before the season we attended twice-weekly summer practice to teach prospective members how to march and prepare for tryouts. For tryouts, we scored the new members and returning veterans on their marching abilities several times across the two-day process. Throughout the season we were responsible for administering the weekly music memorization tests and keeping communication open between the members of our rows and the directing staff.
                         <br /> <br />
-                        The hard work was not without reward; I had the opportunity to cheer on and play for the buckeyes at every home game, some away games, two CFP semi-finals (2019 & 2022), and two Rose bowls (January 2019 & 2022). Being a member in 2018 also allowed me to march in the 2018 Macy's Thanksgiving Day Parade in New York City.
+                        The hard work was not without reward; I had the opportunity to cheer on and play for the buckeyes at every home game, some away games, two CFP semi-finals (2019 & 2022), two Rose bowls (January 2019 & 2022), and two Big 10 Championships (2018 & 2019). Being a member in 2018 also allowed me to march in the 2018 Macy's Thanksgiving Day Parade in New York City.
                     </p>
                 </div>
 

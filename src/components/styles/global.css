@@ -27,6 +27,10 @@ p {
     font-weight:200 !important;
 }
 
+a {
+    color:#cccccc;
+}
+
 a:visited {
     color: inherit;
   }
