@@ -4,7 +4,7 @@
     top: 12rem;
     left: 17rem;
 
-    animation: rotation1 8s infinite linear;
+    animation: rotation1 6s infinite linear;
 }
 
 @keyframes rotation1 {

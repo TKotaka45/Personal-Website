@@ -11,6 +11,7 @@
     z-index: 100;
     border-top: 1px #cccccc solid;
     color: #cccccc;
+    font-weight:200;
 }
 
 
@@ -25,10 +26,6 @@
 
 .icons {
     height: 90%;
-}
-
-#contact {
-    grid-area: 3/2/4/3;
 }
 
 #nameSake {
