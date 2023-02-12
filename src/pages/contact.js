@@ -7,9 +7,10 @@ import * as styles from '../components/styles/contact.module.css'
 
 function Contact() {
     return (
-        <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+        <>
+        <Header />
 
-            <Header />
+        <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>    
 
             <main id={styles.contactForm}>
                 Contact Me:
@@ -54,6 +55,7 @@ function Contact() {
 
             <Footer />
         </div>
+        </>
     )
 }
 
