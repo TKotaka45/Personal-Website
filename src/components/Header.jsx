@@ -5,15 +5,13 @@ import * as styles from './styles/header.module.css'
 function Header() {
     const scrollDirection = useScrollDirection();
 
-    
-
     return (
         <div className={scrollDirection === "down" ? styles.containerUp : styles.container}>
             <div className={styles.title}>Tyler Kotaka</div>
             <a className={styles.btn} href='/'>About Me</a>
             <a className={styles.btn} href='/projects'>Projects</a>
-            <a className={styles.btn} href='/resume'>Resume</a>
             <a className={styles.btn} href='/contact'>Contact Me</a>
+            <a className={styles.btn} href='/resume' style={{gridColumn:'3/4'}}>Resume</a>
         </div>
     )
 }
@@ -23,7 +21,7 @@ export default Header
 function useScrollDirection() {
     const [scrollDirection, setScrollDirection] = useState(null);
 
-    useEffect(() => {
+    useEffect((m) => {
         var lastScrollY = window.pageYOffset;
 
         const updateScrollDirection = () => {
