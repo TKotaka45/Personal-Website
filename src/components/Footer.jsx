@@ -21,7 +21,7 @@ function Footer() {
                     {' '}
                     Tyler Kotaka {(new Date().getFullYear())}
                     {' '}
-                    <img className={styles.icons} src={gatsImg}></img>
+                    <img className={styles.icons} src={gatsImg} alt='Gatsby logo'></img>
                 </div>
                 <div id={styles.deploy}>
                     Deployed on AWS Amplify

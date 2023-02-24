@@ -13,7 +13,7 @@ function Resume() {
         <>
             <Header />
             <div style={{width:'60rem', margin:'10rem auto 0 auto'}}>
-                <img id={resume.image} src={resumeImg} alt="An Image of my resume, click to open PDF in new window"></img>
+                <img id={resume.image} src={resumeImg} alt="My resume, click to open PDF in new window"></img>
                 <a href={TylerKotakaResume} download='TylerKotakaResume.pdf' style={{fontSize:'1.5rem', float:'right', color:'#cccccc', fontWeight:'200'}}>Download Resume PDF</a>
             </div>
             <Footer />
