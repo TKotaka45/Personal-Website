@@ -38,6 +38,7 @@ class ContactForm extends React.Component {
 
     handleSubmit(event) {
         event.preventDefault();
+        document.getElementById('serverResponse').innerHTML = "Submitting..."
 
         var contactData = new FormData();
         for (var key in this.state) {
@@ -55,6 +56,7 @@ class ContactForm extends React.Component {
         })
         .catch(function(error){
             document.getElementById('serverResponse').innerHTML = "There was an error on the backend saving your information"
+            console.log(error)
         })
     }
 
