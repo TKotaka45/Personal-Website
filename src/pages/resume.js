@@ -12,9 +12,11 @@ function Resume() {
     return (
         <>
             <Header />
-            <div style={{width:'60rem', margin:'10rem auto 0 auto'}}>
-                <img id={resume.image} src={resumeImg} alt="My resume, click to open PDF in new window"></img>
-                <a href={TylerKotakaResume} download='TylerKotakaResume.pdf' style={{fontSize:'1.5rem', float:'right', color:'#cccccc', fontWeight:'200'}}>Download Resume PDF</a>
+            <div style={{ width: '60rem', margin: '10rem auto 0 auto' }}>
+                <a href={TylerKotakaResume} download='TylerKotakaResume.pdf'>
+                    <img id={resume.image} src={resumeImg} alt="My resume, click to download PDF"></img>
+                </a>
+                <a href={TylerKotakaResume} download='TylerKotakaResume.pdf' style={{ fontSize: '1.5rem', float: 'right', color: '#cccccc', fontWeight: '200' }}>Download Resume PDF</a>
             </div>
             <Footer />
 
